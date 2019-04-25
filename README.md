@@ -14,3 +14,11 @@ git branch [-r]
 vi README.rm
 git commit -am 'add somethings'
 git push origin master
+
+git branch testbranch
+git branch
+
+git checkout master
+git branch
+
+git checkout testbranch

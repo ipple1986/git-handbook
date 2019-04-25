@@ -15,6 +15,9 @@ vi README.rm
 git commit -am 'add somethings'
 git push origin master
 
+
+branch
+git branch -a
 git branch testbranch
 git branch
 
@@ -22,3 +25,15 @@ git checkout master
 git branch
 
 git checkout testbranch
+git push origin  testbranch
+git branch -r
+
+git branch -r -d origin/testbranch
+git branch -a
+git pull origin testbranch
+
+git branch -a
+git push origin --delete testbranch
+
+
+
